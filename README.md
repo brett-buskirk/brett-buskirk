@@ -24,7 +24,7 @@ well-timed cup of coffee. ☕
 |---|---|---|
 | **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS computer opponent | Vanilla JS · PWA |
 | **[Sudoku Solver](https://brett-buskirk.github.io/sudoku-solver/)** | Fast solver with 100 built-in puzzles, works offline | Vanilla JS · PWA |
-| **[StayClose](https://brett-buskirk.github.io/stayclose/)** | Daily reminders to stay in touch with the people who matter | Flutter |
+| **[Day One](https://github.com/brett-buskirk/day-one)** | Reentry simulator: live the first 90 days after release from prison | React · PWA |
 | **[Sorting Visualizers](https://brett-buskirk.github.io/sort-bubble/)** | Animated [bubble](https://brett-buskirk.github.io/sort-bubble/) & [insertion](https://brett-buskirk.github.io/sort-insertion/) sort demos | Vanilla JS |
 
 ## 🛠️ Things I've built
