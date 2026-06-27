@@ -25,7 +25,7 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 - **IaC & automation** — Terraform modules, Ansible roles [published on Galaxy](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/), Bash/Python tooling
 - **CI/CD pipelines** — GitHub Actions from typecheck through build to cloud deploy ([day-one](https://github.com/brett-buskirk/day-one))
 - **Agentic tooling** — Claude API integrations and CLAUDE.md-driven delivery on production builds ([claude-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen))
-- **Web apps** — React · TypeScript · Astro · Vite, from single-page tools to full GitOps deployments
+- **Web apps** — React · TypeScript · Astro · Vite, from single-page tools to full GitOps deployments ([rc-journey-custom](https://github.com/brett-buskirk/rc-journey-custom))
 
 ## Stack
 
