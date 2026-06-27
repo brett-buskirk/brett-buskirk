@@ -1,51 +1,54 @@
-# Hi, I'm Brett 👋
+# Brett Buskirk
 
-Full-stack tinkerer and off-grid digital nomad — I do most of my coding from remote
-wilderness locations, usually closer to a trailhead than a power outlet. I like shipping
-things that actually **run**: browser games you can play in one click, Python tools that
-poke at the network layer, and infrastructure that spins itself up. I work from
-vanilla-JS PWAs down to Terraform + Ansible, with a soft spot for tabletop RPGs and a
-well-timed cup of coffee. ☕
+Platform / DevOps engineer — cloud infrastructure, IaC, and full-stack delivery. I work
+across AWS, GCP, and DigitalOcean; reach for Terraform + Ansible when I'm provisioning
+and React or Astro when I'm shipping a frontend. Five years of shipping things that hold
+up in production, now doing it independently.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=000&style=flat-square)
+Available for freelance engagements → **[brett-buskirk.dev](https://brett-buskirk.dev)**
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=fff&style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=fff&style=flat-square)
-![Flutter](https://img.shields.io/badge/Flutter-02569b?logo=flutter&logoColor=fff&style=flat-square)
 ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb&style=flat-square)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=fff&style=flat-square)
 ![Terraform](https://img.shields.io/badge/Terraform-7b42bc?logo=terraform&logoColor=fff&style=flat-square)
 ![Ansible](https://img.shields.io/badge/Ansible-ee0000?logo=ansible&logoColor=fff&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=fff&style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232f3e?logo=amazonwebservices&logoColor=ff9900&style=flat-square)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080ff?logo=digitalocean&logoColor=fff&style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?logo=linux&logoColor=fcc624&style=flat-square)
 
-## 🎮 Play something right now — no install needed
+## What I work on
+
+- **Cloud infrastructure** — VPC design, compute provisioning, firewall rules, zero-trust access via Tailscale ([rcj-infra](https://github.com/brett-buskirk/rcj-infra))
+- **Observability stacks** — Prometheus · Grafana · Loki · Alertmanager, deployed via Ansible and Docker Compose
+- **IaC & automation** — Terraform modules, Ansible roles [published on Galaxy](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/), Bash/Python tooling
+- **CI/CD pipelines** — GitHub Actions from typecheck through build to cloud deploy ([day-one](https://github.com/brett-buskirk/day-one))
+- **Agentic tooling** — Claude API integrations and CLAUDE.md-driven delivery on production builds ([claude-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen))
+- **Web apps** — React · TypeScript · Astro · Vite, from single-page tools to full GitOps deployments
+
+## Stack
+
+**Infrastructure:** Terraform · Ansible · Docker · Linux · Nginx  
+**Cloud:** AWS · GCP · DigitalOcean  
+**Languages:** TypeScript · JavaScript · Python · Bash · HCL  
+**Web:** React · Astro · Vite · Node.js  
+**Observability:** Prometheus · Grafana · Loki · Alertmanager · Tailscale
+
+## 🎮 Side projects (playable in the browser — no install needed)
 
 | Project | What it is | Built with |
 |---|---|---|
 | **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS computer opponent | Vanilla JS · PWA |
 | **[Sudoku Solver](https://brett-buskirk.github.io/sudoku-solver/)** | Fast solver with 100 built-in puzzles, works offline | Vanilla JS · PWA |
 | **[Day One](https://github.com/brett-buskirk/day-one)** | Reentry simulator: live the first 90 days after release from prison | React · PWA |
-| **[Sorting Visualizers](https://brett-buskirk.github.io/sort-bubble/)** | Animated [bubble](https://brett-buskirk.github.io/sort-bubble/) & [insertion](https://brett-buskirk.github.io/sort-insertion/) sort demos | Vanilla JS |
+| **[Sorting Visualizers](https://brett-buskirk.github.io/sort-bubble/)** | Animated [bubble](https://brett-buskirk.github.io/sort-bubble/) & [insertion](https://brett-buskirk.github.io/sort-insertion/) sort | Vanilla JS |
 
-## 🛠️ Things I've built
-
-- **[claude-gh-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen)** — a published npm CLI that parses roadmap docs and turns them into well-formatted GitHub issues, powered by Claude.
-- **[Ansible Galaxy roles](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/)** — reusable roles for networking, routing, and secure-user setup on DigitalOcean droplets.
-- **Python network toolkit** — a hands-on collection (packet sniffer, netcat, TCP/UDP clients & servers, SSH client/server) for understanding the wire up close.
-- **TTRPG bots & tools** — Discord bots and a virtual tabletop for *Vampire: The Masquerade*, *Dune*, and D&D night.
-
-## 🧰 What I reach for
-
-**Languages:** JavaScript · TypeScript · Python · Dart · HCL · Bash
-**Web:** Vanilla JS · React · PWAs · GitHub Pages
-**Cloud & DevOps:** Terraform · Ansible · DigitalOcean · GCP · Nginx · Linux
-**Currently into:** AI/LLM tooling, self-hosting, and running cloud infra from off-grid setups
-
-## 📊 By the numbers
+## Stats
 
 [![Brett's GitHub stats](https://github-readme-stats.vercel.app/api?username=brett-buskirk&show_icons=true&hide_border=true&theme=tokyonight)](https://github.com/brett-buskirk)
 [![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=brett-buskirk&layout=compact&hide_border=true&theme=tokyonight)](https://github.com/brett-buskirk)
 
 ---
 
-<sub>🏕️ Currently coding from somewhere off the grid — 🎲 probably building a Discord bot for tabletop night.</sub>
+<sub>Usually coding from somewhere off the grid — remote wilderness, good coffee, reliable internet. ☕</sub>
