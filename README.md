@@ -24,7 +24,7 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 - **Observability stacks** — Prometheus · Grafana · Loki · Alertmanager, deployed via Ansible and Docker Compose
 - **IaC & automation** — Terraform modules, Ansible roles [published on Galaxy](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/), Bash/Python tooling
 - **CI/CD pipelines** — GitHub Actions from typecheck through build to cloud deploy ([day-one](https://github.com/brett-buskirk/day-one))
-- **Agentic tooling** — Claude API integrations and CLAUDE.md-driven delivery on production builds ([claude-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen))
+- **Agentic tooling** — guardrails and CI integration that keep AI coding agents shipping safe, reviewable work ([AgentGate](https://github.com/brett-buskirk/agent-gate) · [the story](https://brett-buskirk.medium.com/a-seatbelt-for-ai-generated-pull-requests-5f70d42f8a75))
 - **Web apps** — React · TypeScript · Astro · Vite, from single-page tools to full GitOps deployments ([rc-journey-custom](https://github.com/brett-buskirk/rc-journey-custom))
 
 ## Stack
@@ -35,19 +35,16 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 **Web:** React · Astro · Vite · Node.js  
 **Observability:** Prometheus · Grafana · Loki · Alertmanager · Tailscale
 
-## 🎮 Side projects (playable in the browser — no install needed)
+## 🛠️ Selected projects
 
-| Project | What it is | Built with |
+| Project | What it is | Stack |
 |---|---|---|
-| **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS computer opponent | Vanilla JS · PWA |
-| **[Sudoku Solver](https://brett-buskirk.github.io/sudoku-solver/)** | Fast solver with 100 built-in puzzles, works offline | Vanilla JS · PWA |
-| **[Day One](https://github.com/brett-buskirk/day-one)** | Reentry simulator: live the first 90 days after release from prison | React · PWA |
-| **[Sorting Visualizers](https://brett-buskirk.github.io/sort-bubble/)** | Animated [bubble](https://brett-buskirk.github.io/sort-bubble/) & [insertion](https://brett-buskirk.github.io/sort-insertion/) sort | Vanilla JS |
-
-## Stats
-
-[![Brett's GitHub stats](https://github-readme-stats.vercel.app/api?username=brett-buskirk&show_icons=true&hide_border=true&theme=tokyonight)](https://github.com/brett-buskirk)
-[![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=brett-buskirk&layout=compact&hide_border=true&theme=tokyonight)](https://github.com/brett-buskirk)
+| **[AgentGate](https://github.com/brett-buskirk/agent-gate)** | CI guardrails for AI-agent pull requests — secrets, scope, missing tests, plus an opt-in LLM intent check. Listed on the [GitHub Marketplace](https://github.com/marketplace/actions/agentgate-ai-pr-guardrails). | TypeScript · GitHub Action · npm |
+| **[claude-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen)** | AI CLI that parses roadmap docs and turns them into well-formed GitHub issues. | TypeScript · Claude API · npm |
+| **[Ansible Galaxy roles](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/)** | Reusable roles for DigitalOcean networking, routing, and secure-user setup. | Ansible |
+| **[Python network toolkit](https://github.com/brett-buskirk/network-packet-sniffer)** | Packet sniffer, netcat, TCP/UDP clients & servers, SSH client/server — the wire, up close. | Python |
+| **[Day One](https://dayone-sim.app)** | Reentry simulator PWA: live the first 90 days after release, one week at a time. | React · TypeScript · PWA |
+| **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS opponent. Installable, offline. | Vanilla JS · PWA |
 
 ---
 
