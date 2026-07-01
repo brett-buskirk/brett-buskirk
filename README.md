@@ -20,7 +20,7 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 
 ## What I work on
 
-- **Cloud infrastructure** — VPC design, compute provisioning, firewall rules, zero-trust access via Tailscale ([rcj-infra](https://github.com/brett-buskirk/rcj-infra))
+- **Cloud infrastructure** — VPC design, compute provisioning, firewall rules, zero-trust access via Tailscale ([heimdall](https://github.com/brett-buskirk/heimdall))
 - **Observability stacks** — Prometheus · Grafana · Loki · Alertmanager, deployed via Ansible and Docker Compose
 - **IaC & automation** — Terraform modules, Ansible roles [published on Galaxy](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/), Bash/Python tooling
 - **CI/CD pipelines** — GitHub Actions from typecheck through build to cloud deploy ([day-one](https://github.com/brett-buskirk/day-one))
@@ -42,7 +42,7 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 | **[AgentGate](https://github.com/brett-buskirk/agent-gate)** | CI guardrails for AI-agent pull requests — secrets, scope, missing tests, plus an opt-in LLM intent check. Listed on the [GitHub Marketplace](https://github.com/marketplace/actions/agentgate-ai-pr-guardrails). | TypeScript · GitHub Action · npm |
 | **[claude-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen)** | AI CLI that parses roadmap docs and turns them into well-formed GitHub issues. | TypeScript · Claude API · npm |
 | **[Ansible Galaxy roles](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/)** | Reusable roles for DigitalOcean networking, routing, and secure-user setup. | Ansible |
-| **[Python network toolkit](https://github.com/brett-buskirk/network-packet-sniffer)** | Packet sniffer, netcat, TCP/UDP clients & servers, SSH client/server — the wire, up close. | Python |
+| **[Python network toolkit](https://github.com/brett-buskirk/python-network-toolkit)** | Packet sniffer, netcat, TCP/UDP clients & servers, SSH client/server — the wire, up close. | Python |
 | **[Day One](https://dayone-sim.app)** | Reentry simulator PWA: live the first 90 days after release, one week at a time. | React · TypeScript · PWA |
 | **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS opponent. Installable, offline. | Vanilla JS · PWA |
 
