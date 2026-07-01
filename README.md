@@ -46,6 +46,10 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 | **[Day One](https://dayone-sim.app)** | Reentry simulator PWA: live the first 90 days after release, one week at a time. | React · TypeScript · PWA |
 | **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS opponent. Installable, offline. | Vanilla JS · PWA |
 
+## Building with AI, responsibly
+
+I build with AI coding agents — openly, and inside a system designed to keep it safe: no direct commits to `main`, every change gated by an automated review ([AgentGate](https://github.com/brett-buskirk/agent-gate)) **plus** a human sign-off, secret scanning, and signed, verified commits. The full policy → **[AI-DEVELOPMENT.md](AI-DEVELOPMENT.md)**.
+
 ---
 
 <sub>Usually coding from somewhere off the grid — remote wilderness, good coffee, reliable internet. ☕</sub>
