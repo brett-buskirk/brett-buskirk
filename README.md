@@ -25,7 +25,7 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 - **IaC & automation** — Terraform modules, Ansible roles [published on Galaxy](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/), Bash/Python tooling
 - **CI/CD pipelines** — GitHub Actions from typecheck through build to cloud deploy ([day-one](https://github.com/brett-buskirk/day-one))
 - **Agentic tooling** — guardrails and CI integration that keep AI coding agents shipping safe, reviewable work ([AgentGate](https://github.com/brett-buskirk/agent-gate) · [the story](https://brett-buskirk.medium.com/a-seatbelt-for-ai-generated-pull-requests-5f70d42f8a75))
-- **Web apps** — React · TypeScript · Astro · Vite, from single-page tools to full GitOps deployments ([rc-journey-custom](https://github.com/brett-buskirk/rc-journey-custom))
+- **Web apps** — React · TypeScript · Astro · Vite, from single-page tools to full GitOps deployments ([rc-journey-blog](https://github.com/brett-buskirk/rc-journey-blog))
 
 ## Stack
 
