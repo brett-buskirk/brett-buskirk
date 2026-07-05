@@ -51,7 +51,7 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 
 I build with AI coding agents — openly, and inside a system designed to keep it safe: no direct commits to `main`, every change gated by an automated review ([AgentGate](https://github.com/brett-buskirk/agent-gate)) **plus** a human sign-off, secret scanning, and signed, verified commits. The full policy → **[AI-DEVELOPMENT.md](AI-DEVELOPMENT.md)**.
 
-That discipline runs estate-wide: I built a small toolkit — **[huginn](https://github.com/brett-buskirk/huginn)** and **[muninn](https://github.com/brett-buskirk/muninn)** — that holds every repo to the same standard and guardrails, and I wrote up how I run a team of coding agents with a chain of command in *[I Built an Org Chart for My AI Agents](https://www.linkedin.com/pulse/i-built-org-chart-my-ai-agents-brett-buskirk-h0iic/)*.
+That discipline runs estate-wide: I built a small pack of terminal CLIs that hold every repo to one standard — **[huginn](https://github.com/brett-buskirk/huginn)** and **[muninn](https://github.com/brett-buskirk/muninn)** audit conventions and report what shipped, while **[geri](https://github.com/brett-buskirk/geri)** and **[freki](https://github.com/brett-buskirk/freki)** sweep for security and staleness and clear out cruft. I wrote up how I run a team of coding agents with a chain of command in *[I Built an Org Chart for My AI Agents](https://www.linkedin.com/pulse/i-built-org-chart-my-ai-agents-brett-buskirk-h0iic/)*.
 
 ---
 
