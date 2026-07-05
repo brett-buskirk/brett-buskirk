@@ -40,15 +40,18 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 | Project | What it is | Stack |
 |---|---|---|
 | **[AgentGate](https://github.com/brett-buskirk/agent-gate)** | CI guardrails for AI-agent pull requests — secrets, scope, missing tests, plus an opt-in LLM intent check. Listed on the [GitHub Marketplace](https://github.com/marketplace/actions/agentgate-ai-pr-guardrails). | TypeScript · GitHub Action · npm |
+| **[heimdall](https://github.com/brett-buskirk/heimdall)** | Drop-in observability for DigitalOcean — Prometheus · Grafana · Loki · Alertmanager on a Tailscale-secured VPC, provisioned with Terraform + Ansible. | Terraform · Ansible · Docker |
+| **[huginn](https://github.com/brett-buskirk/huginn) + [muninn](https://github.com/brett-buskirk/muninn)** | A terminal toolkit that runs my whole GitHub estate — huginn audits every repo against one standard and scaffolds new ones to it; muninn reports what shipped. | Bash · gh CLI |
 | **[claude-ticket-gen](https://www.npmjs.com/package/claude-gh-ticket-gen)** | AI CLI that parses roadmap docs and turns them into well-formed GitHub issues. | TypeScript · Claude API · npm |
-| **[Ansible Galaxy roles](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/)** | Reusable roles for DigitalOcean networking, routing, and secure-user setup. | Ansible |
 | **[Python network toolkit](https://github.com/brett-buskirk/python-network-toolkit)** | Packet sniffer, netcat, TCP/UDP clients & servers, SSH client/server — the wire, up close. | Python |
+| **[Ansible Galaxy roles](https://galaxy.ansible.com/ui/standalone/roles/brett-buskirk/do_network_routing/)** | Reusable roles for DigitalOcean networking, routing, and secure-user setup. | Ansible |
 | **[Day One](https://dayone-sim.app)** | Reentry simulator PWA: live the first 90 days after release, one week at a time. | React · TypeScript · PWA |
-| **[Go (圍棋)](https://brett-buskirk.github.io/go/)** | The ancient board game — full rules, territory scoring, and an MCTS opponent. Installable, offline. | Vanilla JS · PWA |
 
 ## Building with AI, responsibly
 
 I build with AI coding agents — openly, and inside a system designed to keep it safe: no direct commits to `main`, every change gated by an automated review ([AgentGate](https://github.com/brett-buskirk/agent-gate)) **plus** a human sign-off, secret scanning, and signed, verified commits. The full policy → **[AI-DEVELOPMENT.md](AI-DEVELOPMENT.md)**.
+
+That discipline runs estate-wide: I built a small toolkit — **[huginn](https://github.com/brett-buskirk/huginn)** and **[muninn](https://github.com/brett-buskirk/muninn)** — that holds every repo to the same standard and guardrails, and I wrote up how I run a team of coding agents with a chain of command in *[I Built an Org Chart for My AI Agents](https://www.linkedin.com/pulse/i-built-org-chart-my-ai-agents-brett-buskirk-h0iic/)*.
 
 ---
 
