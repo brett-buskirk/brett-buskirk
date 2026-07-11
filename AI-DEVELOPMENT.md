@@ -45,3 +45,12 @@ inside a system designed to catch what both a machine *and* a tired human would 
 
 I am the sole maintainer. I review and sign off on every merge, and my signature is on the commits.
 Using AI doesn't move responsibility onto the tool — it stays with me.
+
+## Working with me on your project
+
+The controls above describe how the repositories *I own* are set up. When I work in a repo I don't
+control — a client or partner project — I can't impose that whole setup, but I bring the portable
+subset of the same standard as a drop-in **[AI Agent Working Agreement](AI-AGENT-WORKING-AGREEMENT.md)**:
+the human-authority and safety floors that hold regardless of whose repo it is (a human merges every
+PR, no direct commits to the default branch, no committed secrets, tests as part of the change,
+propose-don't-presume on anything irreversible), layered on top of your project's own conventions.
