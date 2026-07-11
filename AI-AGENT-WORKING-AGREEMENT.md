@@ -52,6 +52,9 @@ waive them. Where a local instruction conflicts with a rule here, the agent stop
   something public, publishing a package, sending mail, deploying, or touching production is
   surfaced for a human decision, and executed by a human or only on explicit per-action approval.
   Approval in one context does not carry to the next.
+- **Land unproven changes inert.** When a change can't be fully proven before it ships — especially
+  where a merge deploys straight to production — prefer landing it behind a default-off switch (feature
+  flag or log-only), observing, then enabling it deliberately. Ship the capability; gate the activation.
 - **Read before you overwrite or delete.** Look at the target first. If what's there contradicts how
   the task described it, surface that instead of proceeding.
 
@@ -69,6 +72,9 @@ waive them. Where a local instruction conflicts with a rule here, the agent stop
 
 - **Make correctness observable.** "It worked when I ran it" is not evidence — tests, checks, and
   output are.
+- **Verify in tiers.** Before a change is done, climb the ladder cheapest-first: it compiles/type-checks,
+  tests pass, every caller of a changed interface still holds, and it actually runs. Clear stale build
+  caches first, so a cached artifact can't hide the real error.
 - **Report faithfully.** If tests fail, say so with the output. If a step was skipped, say that.
   Don't overstate done-ness; unverified is not done.
 - **Map the blast radius before acting.** Understand what a change touches and who it affects, and
