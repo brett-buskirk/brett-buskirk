@@ -9,11 +9,13 @@ Available for freelance engagements → **[brett-buskirk.dev](https://brett-busk
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=fff&style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776ab?logo=python&logoColor=fff&style=flat-square)
+![Ruby](https://img.shields.io/badge/Ruby-cc342d?logo=ruby&logoColor=fff&style=flat-square)
 ![React](https://img.shields.io/badge/React-20232a?logo=react&logoColor=61dafb&style=flat-square)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=fff&style=flat-square)
 ![Terraform](https://img.shields.io/badge/Terraform-7b42bc?logo=terraform&logoColor=fff&style=flat-square)
 ![Ansible](https://img.shields.io/badge/Ansible-ee0000?logo=ansible&logoColor=fff&style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ed?logo=docker&logoColor=fff&style=flat-square)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?logo=kubernetes&logoColor=fff&style=flat-square)
 ![AWS](https://img.shields.io/badge/AWS-232f3e?logo=amazonwebservices&logoColor=ff9900&style=flat-square)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080ff?logo=digitalocean&logoColor=fff&style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?logo=linux&logoColor=fcc624&style=flat-square)
